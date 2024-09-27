@@ -1,0 +1,21 @@
+body {
+	@apply bg-slate-300 font-sans w-screen h-screen p-3;
+}
+#__nuxt {
+	@apply h-full w-full;
+}
+.n-switch.n-switch--active .n-switch__rail {
+	background-color: #95a3b8a7;
+}
+.n-button.n-button--tertiary-type.n-button--tiny-type {
+	border: 1px solid #a1a1aa23;
+}
+.n-select {
+	@apply flex items-center pl-4 mt-0.5;
+}
+.n-base-selection .n-base-selection-label {
+	@apply bg-slate-200;
+}
+circle {
+	@apply cursor-pointer;
+}
